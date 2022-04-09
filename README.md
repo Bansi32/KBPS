@@ -1,10 +1,16 @@
-# Saksham  
+# Saksham
 
-
+A web platform to connect the wonderful world of artifacts, crafted by skilled rural and tribal craftsmen with the whole wide world.
+It is a technology aided approach to bridge the gap of communication and exploitation between them and the urbanizaton.
 
 ## Video Link
+
+[Video](https://drive.google.com/file/d/17QWA_zgmWfxeNUZJTXy7jckv0HpLj7k7/view?usp=sharing)
+
 ## Presentation Link
+
 [Presentation](https://www.canva.com/design/DAE8FQVvHkI/NHEDmiY8N494DDVBTkX55A/edit?utm_content=DAE8FQVvHkI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## Tech Stacks Used
 
 React Js
@@ -15,13 +21,11 @@ Node Js
 
 MongoDB
 
-Payment Gateway-  Razorpay
-
-
+Payment Gateway- Razorpay
 
 ## Dependencies Used
 
-Front End:- 
+Front End:-
 
     "bootstrap": "^5.1.3",
     "react": "^17.0.2",
@@ -46,14 +50,18 @@ Back End:-
     "morgan": "^1.10.0",
     "razorpay": "^2.8.1",
     "shortid": "^2.2.16"}
+
 ## Flow Chart
+
 ![](flow.png)
 
 ## Web Flow
+
 ![](whimcool.png)
+
 ## To run Project
 
-Server:- 
+Server:-
 
     run npm i
     run node server.js

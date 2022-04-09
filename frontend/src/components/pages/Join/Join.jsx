@@ -1,8 +1,15 @@
 import React from "react";
 import "./Join.css";
+import { useNavigate } from 'react-router-dom';
 
 const Join = () => {
+    const navigate = useNavigate();
+    const join = () => {
+        alert("Thank you for showing your interest. We will be reverting back soon");
+        navigate('/community');
+        }
     return (
+        
         <>
          <div className="join-back">
             <div className="join">
@@ -38,7 +45,7 @@ const Join = () => {
                     <label for="exampleFormControlFile1">Attach Your Product Details</label>
                     <input type="file" className="form-control-file" id="exampleFormControlFile1" />
                 </div>
-                        <button type="submit" className="join-btn">Join Us</button>
+                        <button type="submit" onClick={join} className="join-btn">Join Us</button>
             </form>
             </div>
          </div>
