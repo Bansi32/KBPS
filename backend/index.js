@@ -18,7 +18,7 @@ app.use("/users", require("./routes/users"));
 app.use(require('./routes/payment'));
 
 // deployment
-if (process.env.NODE_ENV === 'PRODUCTION')
+if (process.env.NODE_ENV === "production")
 {
     
     app.use(express.static(path.join(__dirname, "../frontend/build")));
