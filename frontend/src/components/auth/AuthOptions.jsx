@@ -36,7 +36,7 @@ function AuthOptions() {
         console.log(data);
 
 		const options = {
-			key: __DEV__ ? 'rzp_test_13xvVnEfV5HPoJ' : process.env.key_id,
+			key: process.env.REACT_APP_KEY_ID,
 			amount: data.amount.toString(),
             currency: data.currency,
 			order_id: data.id,
