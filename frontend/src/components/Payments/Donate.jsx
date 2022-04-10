@@ -31,7 +31,7 @@ function Donate() {
             return
 		}
 
-        const data = await fetch('http://localhost:5000/donate', { method: 'POST' }).then((t) =>
+        const data = await fetch('https://kbps4.herokuapp.com/donate', { method: 'POST' }).then((t) =>
             t.json()
 		)
 
@@ -44,7 +44,7 @@ function Donate() {
 			order_id: data.id,
 			name: 'Payment',
 			description: 'Be a helping hand',
-			image: 'http://localhost:5000/imagedonate',
+			image: 'https://kbps4.herokuapp.com/imagedonate',
             handler: function () {
 				alert("Payment Done");
 				navigate('/');

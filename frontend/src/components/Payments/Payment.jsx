@@ -30,7 +30,7 @@ function Payment() {
 			return
 		}
 
-		const data = await fetch('http://localhost:5000/payment', { method: 'POST' }).then((t) =>
+		const data = await fetch('https://kbps4.herokuapp.com/payment', { method: 'POST' }).then((t) =>
 			t.json()
 		)
 
@@ -43,7 +43,7 @@ function Payment() {
 			order_id: data.id,
 			name: 'Payment',
 			description: 'Please complete the payment',
-			image: 'http://localhost:5000/image',
+			image: 'https://kbps4.herokuapp.com/image',
             handler: function () {
 				alert("Payment Done");
 				navigate('/explore');

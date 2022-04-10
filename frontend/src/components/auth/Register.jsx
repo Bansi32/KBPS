@@ -22,8 +22,8 @@ function Register () {
 
         try{
             const newUser = {email, password, phone,displayName};
-            await axios.post("http://localhost:5000/users/register", newUser);
-            const loginResponse = await axios.post("http://localhost:5000/users/login", {
+            await axios.post("https://kbps4.herokuapp.com/users/register", newUser);
+            const loginResponse = await axios.post("https://kbps4.herokuapp.com/users/login", {
                 email, password
             });
             setUserData({
