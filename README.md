@@ -1,7 +1,19 @@
 # Saksham
 
-A web platform to connect the wonderful world of artifacts, crafted by skilled rural and tribal craftsmen with the whole wide world.
-It is a technology aided approach to bridge the gap of communication and exploitation between them and the urbanizaton.
+As they say “Out of sight, out of mind”, this is the current
+situation with age-old artifacts.
+
+These artifacts made by few families, generally living in various villages all over India, hold ethnic values but sadly somewhere among the city lights and our busy lives, these heritage beauties have become invisible to us.
+
+This has led to loss of earning for the families who do not have the means to promote them to the wider market
+and even if they are able to sell their products, but unfortunately, they are somewhere exploited by the so-called middle men who tend to keep the lion share of the profit.
+
+<p align="center">
+  <img src="frontend/src/components/pages/Images/logo.png">
+</p>
+
+To tackle this issue we have come forward with a web platform that gives the urban people access to
+these artifacts easily and makes it easier for us to buy these products which in turn benefits the tribal and rural craftsmen as they can now sell their products world wide with our website.
 
 ## Video Link
 
