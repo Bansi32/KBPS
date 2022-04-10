@@ -1,13 +1,14 @@
 const express = require("express");
 const router = express.Router();
 const path = require('path');
+require("dotenv").config();
 const shortid = require('shortid');
 const Razorpay = require('razorpay');
 
 
 const razorpay = new Razorpay({
-    key_id: 'rzp_test_13xvVnEfV5HPoJ',
-    key_secret: 'ikBcavM3TH1FURxtEhezthNa',
+    key_id:process.env.key_id,
+    key_secret: process.env.key_secret,
 });
 
 router.get('/image', (req, res) => {
