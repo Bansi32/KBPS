@@ -14,7 +14,7 @@ app.use(cors());
 
 // set up routes
 
-app.use(require("./routes/users"));
+app.use("/users", require("./routes/users"));
 app.use(require('./routes/payment'));
 
 // deployment
