@@ -34,7 +34,7 @@ and Mohenjodaro civilization. There have been several ornaments like ear studs, 
     },
     {
         id: 5,
-        productImage:"http://hptdc.in/wp-content/uploads/2019/06/chamba_rumaal.jpg",                       
+        productImage:"https://hptdc.in/wp-content/uploads/2019/06/chamba_rumaal.jpg",                       
         productName:"CHAMBA RUMAAL",
         productDescription:"The Chamba Rumal or Chamba handkerchief is an embroidered handicraft that was once promoted under the patronage of the former rulers of Chamba kingdom. It is a common item of gift during marriages with detailed patterns in bright and pleasing colour schemes Known as a “needle wonder” Chamba Rumal is now made in square and rectangular shapes.",
         productPrice: "1000 Rs",

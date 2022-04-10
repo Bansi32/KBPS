@@ -66,7 +66,7 @@ const Checkout = () => {
             <div className="Summary">
               <h3>Item Summary</h3>
               <div className="ItemDetail">
-                <img src="http://hptdc.in/wp-content/uploads/2019/06/chamba_rumaal.jpg" alt="img"/>
+                <img src="https://hptdc.in/wp-content/uploads/2019/06/chamba_rumaal.jpg" alt="img"/>
                 <h5>Name of Item: {pname}</h5>
                 <h5>Name of Seller: {psname}</h5>
                 <h5>Product Count: 2 count</h5>
