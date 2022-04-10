@@ -30,19 +30,19 @@ function AuthOptions() {
             alert('Razorpay SDK failed to load. Are you online?');
             return
 		}
-        const data = await fetch('http://localhost:5000/donate', { method: 'POST' }).then((t) =>
+        const data = await fetch('https://kbps4.herokuapp.com/donate', { method: 'POST' }).then((t) =>
             t.json()
 		)
         console.log(data);
 
 		const options = {
-			key: __DEV__ ? 'rzp_test_13xvVnEfV5HPoJ' : 'PRODUCTION_KEY',
+			key: __DEV__ ? 'rzp_test_13xvVnEfV5HPoJ' : process.env.key_id,
 			amount: data.amount.toString(),
             currency: data.currency,
 			order_id: data.id,
 			name: 'Payment',
 			description: 'Be a helping hand',
-			image: 'http://localhost:5000/imagedonate',
+			image: 'https://kbps4.herokuapp.com/imagedonate',
             handler: function () {
                 alert("Payment Done");
 				//alert(response.razorpay_payment_id)
