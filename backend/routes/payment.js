@@ -21,7 +21,7 @@ router.get('/imagedonate', (req, res) => {
 
 router.post('/verification', (req, res) => {
 	// do a validation
-    const secret = '12345678';
+    const secret = process.env.JWT_SECRET;
 
     console.log(req.body);
 
