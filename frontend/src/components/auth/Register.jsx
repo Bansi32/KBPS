@@ -22,8 +22,8 @@ function Register () {
 
         try{
             const newUser = {email, password, phone,displayName};
-            await axios.post("http://localhost:5000/users/register", newUser);
-            const loginResponse = await axios.post("http://localhost:5000/users/login", {
+            await axios.post("http://localhost:5000/register", newUser);
+            const loginResponse = await axios.post("http://localhost:5000/login", {
                 email, password
             });
             setUserData({
